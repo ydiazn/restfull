@@ -5,11 +5,13 @@ An API is used to list and delete questions
 ## Setup virtual environment
 
 `apt-get install python3-venv`
+
 `python3 -m venv venv`
 
 ## Install python dependencies
 
 `source venv/bin/activate`
+
 `pip install -r requeriments.txt`
 
 ## Install javascript dependencies
@@ -19,7 +21,9 @@ An API is used to list and delete questions
 ## Setup project
 
 `source venv/bin/activate`
+
 `python manage.py migrate`
+
 `python manage.py createsuperuser`
 
 ## Run example

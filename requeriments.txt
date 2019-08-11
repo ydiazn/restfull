@@ -1,0 +1,5 @@
+# Django
+Django==2.2.3
+django-model-utils
+django-rest-framework
+
